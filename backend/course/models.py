@@ -68,6 +68,10 @@ class Category(models.Model):
     name = models.CharField(
         max_length=256,
     )
+    parenting = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
 
 
 class Event(models.Model):
