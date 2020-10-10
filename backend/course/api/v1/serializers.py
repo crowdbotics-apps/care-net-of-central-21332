@@ -1,16 +1,16 @@
 from rest_framework import serializers
 from course.models import (
-    Category,
-    Course,
-    Enrollment,
+    Recording,
     Event,
+    Subscription,
+    Course,
     Group,
-    Lesson,
     Module,
     PaymentMethod,
-    Recording,
-    Subscription,
     SubscriptionType,
+    Enrollment,
+    Lesson,
+    Category,
 )
 
 
